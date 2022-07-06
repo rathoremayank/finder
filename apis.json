@@ -1,0 +1,25 @@
+{
+	"apis": [{
+			"apiname": "payfonepapi",
+			"apitype": "papi",
+			"version": "1.0.1",
+			"coderepo": "www.payfonepapicode.git",
+			"codebranch": "release/stablecode",
+			"configrepo": "www.payfonepapi-config.git",
+			"sitconfigbranch": "release/sit-config",
+			"oatconfigbranch": "release/oat-config",
+			"prodconfigbranch": "release/prod-config"
+		},
+		{
+			"apiname": "payfonesapi",
+			"apitype": "sapi",
+			"version": "1.0.1",
+			"coderepo": "www.payfonesapicode.git",
+			"codebranch": "release/stablecode",
+			"configrepo": "www.payfonesapi-config.git",
+			"sitconfigbranch": "release/sit-config",
+			"oatconfigbranch": "release/oat-config",
+			"prodconfigbranch": "release/prod-config"
+		}
+	]
+}
