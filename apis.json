@@ -20,4 +20,4 @@ data = '[{
 			"oatconfigbranch": "release/oat-config",
 			"prodconfigbranch": "release/prod-config"
 		}
-	]'
+	]';
