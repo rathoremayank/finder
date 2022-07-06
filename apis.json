@@ -1,4 +1,4 @@
-{
+data = '{
 	"apis": [{
 			"apiname": "payfonepapi",
 			"apitype": "papi",
@@ -22,4 +22,4 @@
 			"prodconfigbranch": "release/prod-config"
 		}
 	]
-}
+}'
