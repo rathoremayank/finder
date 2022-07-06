@@ -1,7 +1,6 @@
 <html>
   <head>
     <title>finderv1</title>
-    <link rel="stylesheet" type="text/css" href="styles/theme.css">
     
   </head>
   
@@ -10,12 +9,15 @@
     
 </head>
 <body>
-  <select name="cars" id="cars">
-    <option value="volvo">Volvo</option>
-    <option value="saab">Saab</option>
-    <option value="mercedes">Mercedes</option>
-    <option value="audi">Audi</option>
-  </select>
+  
+  <form onsubmit="return fetchData()">
+    <select name="apiname" id="apiname">
+      <option value="payfonepapi">payfonepapi</option>
+      <option value="payfonesapi">payfonesapi</option>
+    </select>
+    <input id="submit" type="submit">
+</form>
+ 
     
     
   </body>
