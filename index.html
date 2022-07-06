@@ -1,8 +1,7 @@
 <html>
   <head>
     <title>finderv1</title>
-    <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
-    
+    <script type="text/javascript" src="apis.json"></script>    
   </head>
   
   <body>
@@ -23,14 +22,7 @@
     
   </body>
   <script>
-    const jsonData= require('apis.json'); 
-    console.log(jsonData);
-    
-    fetch("./apis.json")
-      .then(response => {
-      return response.json();
-    })
-      .then(jsondata => console.log(jsondata));
+    var apidata = JSON.parse(apis);
     
     function fetchData(){
       alert("hello");
