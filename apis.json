@@ -1,5 +1,4 @@
-data = '{
-	"apis": [{
+data = '[{
 			"apiname": "payfonepapi",
 			"apitype": "papi",
 			"version": "1.0.1",
@@ -21,5 +20,4 @@ data = '{
 			"oatconfigbranch": "release/oat-config",
 			"prodconfigbranch": "release/prod-config"
 		}
-	]
-}'
+	]'
