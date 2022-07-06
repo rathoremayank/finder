@@ -21,5 +21,19 @@
     
     
   </body>
+  <script>
+    const jsonData= require('./apis.json'); 
+    console.log(jsonData);
+    
+    fetch("./apis.json")
+      .then(response => {
+      return response.json();
+    })
+      .then(jsondata => console.log(jsondata));
+    
+    function fetchData(){
+    
+    }
+  </script> 
   
 </html>
